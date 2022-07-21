@@ -3,7 +3,7 @@ React Native bridge to the [AppMetrica](https://appmetrica.yandex.com/) on both 
 
 ## Installation
 
-1. `npm install react-native-appmetrica --save`
+1. `npm install https://gitlab.com/getgain-public/libs/react-native-appmetrica.git --save`
 2. If React Native version <= 0.59: \
   `react-native link react-native-appmetrica`
 3. iOS only
