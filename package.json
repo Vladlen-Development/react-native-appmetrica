@@ -28,7 +28,8 @@
   "license": "MIT",
   "homepage": "https://appmetrica.yandex.com/docs",
   "peerDependencies": {
-    "react-native": ">=0.59.0 <1.0.x"
+    "react-native": ">=0.59.0 <1.0.x",
+    "react-native-appmetrica-push-sdk": "https://gitlab.com/getgain-public/libs/react-native-appmetrica-push-sdk.git"
   },
   "devDependencies": {
   }
