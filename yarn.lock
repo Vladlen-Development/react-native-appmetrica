@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+"react-native-appmetrica-push-sdk@https://gitlab.com/getgain-public/libs/react-native-appmetrica-push-sdk.git":
+  version "1.0.12"
+  resolved "https://gitlab.com/getgain-public/libs/react-native-appmetrica-push-sdk.git#625e78d7542940d10ea54aca879bfd52196d0c75"
