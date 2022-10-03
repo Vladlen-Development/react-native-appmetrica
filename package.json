@@ -30,7 +30,7 @@
   "peerDependencies": {
     "react-native": ">=0.59.0 <1.0.x"
   },
-  "dependencies": {
-    "react-native-appmetrica-push-sdk": "https://gitlab.com/getgain-public/libs/react-native-appmetrica-push-sdk.git"
+  "devDependencies": {
+
   }
 }
