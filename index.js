@@ -10,66 +10,68 @@ import {NativeModules} from 'react-native';
 
 const {AppMetrica} = NativeModules;
 
-export default {
+class YandexMetrica {
 
   activate(config) {
     AppMetrica.activate(config);
-  },
+  }
 
   // Android
   async getLibraryApiLevel(){
     return AppMetrica.getLibraryApiLevel();
-  },
+  }
 
   async getLibraryVersion() {
     return AppMetrica.getLibraryVersion();
-  },
+  }
 
   pauseSession() {
     AppMetrica.pauseSession();
-  },
+  }
 
   reportAppOpen(deeplink) {
     AppMetrica.reportAppOpen(deeplink);
-  },
+  }
 
   reportError(error, reason) {
     AppMetrica.reportError(error);
-  },
+  }
 
   reportEvent(eventName, attributes) {
     AppMetrica.reportEvent(eventName, attributes);
-  },
+  }
 
   reportReferralUrl(referralUrl) {
     AppMetrica.reportReferralUrl(referralUrl);
-  },
+  }
 
   requestAppMetricaDeviceID(listener) {
     AppMetrica.requestAppMetricaDeviceID(listener);
-  },
+  }
 
   resumeSession() {
     AppMetrica.resumeSession();
-  },
+  }
 
   sendEventsBuffer() {
     AppMetrica.sendEventsBuffer();
-  },
+  }
 
   setLocation(location) {
     AppMetrica.setLocation(location);
-  },
+  }
 
   setLocationTracking(enabled) {
     AppMetrica.setLocationTracking(enabled);
-  },
+  }
 
   setStatisticsSending(enabled) {
     AppMetrica.setStatisticsSending(enabled);
-  },
+  }
 
   setUserProfileID(userProfileID) {
     AppMetrica.setUserProfileID(userProfileID);
-  },
+  }
 };
+
+export default YandexMetrica;
