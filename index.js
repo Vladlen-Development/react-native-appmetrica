@@ -74,4 +74,5 @@ class YandexMetrica {
   }
 };
 
-export default YandexMetrica;
+const yandexMetrica = new YandexMetrica()
+export default yandexMetrica;
